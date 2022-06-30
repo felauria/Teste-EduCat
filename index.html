@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>webStudent</title>
+</head>
+<body>
+    <div class="container-geral">
+        <div class="container-busca">
+            <label for="busca" class="texto-titulo">Buscar</label><br>
+            <input type="text" name="busca" id="inputBusca" class="input-busca" onkeyup="buscaAluno()">
+        </div>
+        <div>
+            <div class="container-titulo">
+                <label class="texto-titulo">Alunos</label>
+                <button onclick="novoAluno()" class="btn novo">Novo Aluno +</button>
+            </div>
+            
+            <table id="tableAlunos">
+                <li class="liAlunos">
+                    <!-- <ul><p>nome</p><div class="acao"><button class="btn acao editar" onclick="editarAluno()">Editar</button><button class="btn acao excluir" onclick="excluirAluno()">Excluir</button></div></ul> -->
+                </li>
+            </table>
+        </div>
+    </div>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>

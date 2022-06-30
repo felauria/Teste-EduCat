@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(17, 1, 30);
+}
+
+li{
+    list-style: none;
+}
+
+p{
+    margin: 6px;
+    color: rgb(32, 0, 67);
+}
+
+ul{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+}
+
+ul:hover{
+    background-color: rgb(241, 241, 241);
+}
+
+.texto-titulo{
+    color: rgb(32, 0, 67);
+    font-size: 25px;
+}
+
+.container-geral{
+    margin: 100px;
+    border-radius: 15px;
+    width: 800px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.825);
+    padding: 25px
+}
+
+.container-titulo{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-busca{
+    margin: 0;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn{
+    padding: 5px;
+}
+
+.acao{
+    height: 100%;
+}
+
+.editar{
+    background-color: rgb(64, 123, 172);
+    color: white;
+    border: rgb(64, 123, 172) solid 3px;
+}
+
+.editar:hover{
+    background-color: rgb(35, 77, 111);
+    border: rgb(35, 77, 111) solid 3px;
+
+}
+
+.excluir{
+    background-color: rgb(196, 0, 0);
+    color: white;
+    border: rgb(196, 0, 0) solid 3px;
+}
+
+.excluir:hover{
+    background-color: rgb(115, 2, 2);
+    border: rgb(115, 2, 2) solid 3px;
+}
+
+.novo{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.novo:hover{
+    background-color: rgb(2, 87, 2);
+}
